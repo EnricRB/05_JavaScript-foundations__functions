@@ -17,3 +17,15 @@
  * input: []
  * output: ""
  */
+
+/**
+ * Transform a collection (array) into a string, joined by a pipe character, or return an empty string if the array is empty.
+ * @param {Array} collection
+ * @returns {string}
+ */
+
+const transformCollectionToString = function(collection) {
+   return collection.length > 0 ? collection.join(" | ") : "";
+};
+
+export default transformCollectionToString;
